@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <script src="main.js" defer></script>   
+
+<h1>Oscillator with Flanger</h1>
+<div>
+    <button id="startButton">Start</button>
+    <label>Oscillator Frequency: <input id="freqA" type="range" min="100" max="1000" value="440"></label>
+  </div>
+  <div>
+    <label>Flanger Speed: <input id="freqB" type="range" min="0.05" max="5" step="0.05" value="0.25"></label>
+  </div>
+  <div>
+    <label>Flanger Depth: <input id="depthB" type="range" min="0" max="0.01" step="0.0001" value="0.002"></label>
+  </div>
+  <div>
+    <label>Feedback: <input id="feedbackGain" type="range" min="0" max="0.95" step="0.01" value="0.5"></label>
+  </div>
+  <div>
+    <label>Master Gain: <input id="masterFader" type="range" min="0" max="0.99" step="0.01" value="0.5"></label>
+  </div>
+</html>
